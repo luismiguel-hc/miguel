@@ -1,0 +1,46 @@
+#contenedor{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+}
+#caja1{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-bottom: 20px solid black;
+    border-top: 10px solid red;
+    border-left: 35px solid green;
+    border-right: 15px solid blue;
+}
+#caja1:hover{
+    border-bottom: 30px solid black;
+    border-top: 20px solid red;
+    border-left: 15px solid green;
+    border-right: 10px solid blue;
+}
+#caja2{
+    text-align: center;
+    background-color: burlywood;
+    width: 120px;
+    height:20 ;
+    padding: 50px 10px;
+    bottom:60 ;
+    border:black 12px solid ;
+    border-radius: 12px;
+}
+#caja2:hover{
+    text-align:center;
+    background-color: turquoise;
+    width:150px ;
+    height:130px ;
+    padding:4px 2px ;
+    border:black 7px solid ;
+    border:6px 6px black;
+}
+#caja3{
+    text-align: center;
+    width: 140px;
+    height: 130px;
+    border: 6px solid red;
+    
+}
